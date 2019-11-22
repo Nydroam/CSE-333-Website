@@ -1,0 +1,19 @@
+.nav-button img{
+    width:40px;
+    position: relative;
+    padding:5px;
+}
+.nav-button{
+    padding-right:15px;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    box-sizing:content-box;
+    cursor: pointer;
+}
+.nav-button:hover{
+    padding-right:11px;
+    position:relative;
+    right:2px;
+    border: 2px solid #a50330;
+}
