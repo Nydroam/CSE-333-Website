@@ -15,7 +15,7 @@ class NavBar extends React.Component{
                     SBU Tabletop Club
                 </div>
                 <div className="nav-buttons">
-                    {tabs.map( tab=> <NavButton name={tab}/>)}
+                    {tabs.map( tab=> <NavButton changePage={this.props.changePage} name={tab}/>)}
                 </div>
             </div>
         );

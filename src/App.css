@@ -28,3 +28,23 @@ body{
   background: url("./page.jpg") no-repeat center fixed;
   background-size: cover;
 }
+
+@font-face{
+  font-family: MrsEaves;
+  src:url("./MrsEavesRoman.ttf")
+}
+
+@font-face{
+  font-family: EffraMedium;
+  src:url("./Effra_Std_Md.ttf")
+}
+
+@font-face{
+  font-family: EffraLight;
+  src:url("./Effra_Std_Lt.ttf")
+}
+
+@font-face{
+  font-family: EffraRegular;
+  src:url("./Effra_Std_Rg.ttf")
+}

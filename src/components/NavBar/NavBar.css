@@ -1,16 +1,17 @@
-@font-face{
-    font-family: MrsEaves;
-    src:"../../MrsEavesRoman.ttf"
-}
+
 
 .navbar{
     height: 70px;
     border-bottom: 5px solid #a50330;
+    position:sticky;
+    top:0;
     display:flex;
     text-align: center;
     align-items: center;
     font-family: MrsEaves;
     justify-content: space-between;
+    background: url("../../page.jpg") no-repeat center fixed;
+  background-size: cover;
 }
 
 .nav-title{
@@ -20,7 +21,8 @@
     align-items: center;
     font-size: 36px;
     padding:10px;
-    min-width: 320px;
+    padding-left:30px;
+    padding-right:30px;
     flex-shrink:0;
 }
 .nav-title img{

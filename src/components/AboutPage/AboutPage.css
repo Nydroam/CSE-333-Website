@@ -1,0 +1,32 @@
+.about-page{
+    min-width:700px;
+    max-width:1200px;
+    display:inline-block;
+}
+.about-page img{
+    width:500px;
+    margin-top:20px;
+    margin-bottom:30px;
+    
+}
+.about-columns{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.about-column{
+    width:30%;
+}
+.about-desc{
+    font-family: EffraRegular;
+    font-size:18px;
+    text-align: left;
+}
+.about-header{
+    font-family: EffraMedium;
+    font-size: 30px;
+    color:#a50330;
+    border-bottom: 2px solid #dcb032;
+    padding-bottom:5px;
+    margin-bottom:8px;
+}
