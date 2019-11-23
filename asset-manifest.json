@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sbu-tabletop-website/static/css/main.370ea069.chunk.css",
-    "main.js": "/sbu-tabletop-website/static/js/main.8be8e6ed.chunk.js",
-    "main.js.map": "/sbu-tabletop-website/static/js/main.8be8e6ed.chunk.js.map",
+    "main.css": "/sbu-tabletop-website/static/css/main.5609e887.chunk.css",
+    "main.js": "/sbu-tabletop-website/static/js/main.88380179.chunk.js",
+    "main.js.map": "/sbu-tabletop-website/static/js/main.88380179.chunk.js.map",
     "runtime-main.js": "/sbu-tabletop-website/static/js/runtime-main.640440ab.js",
     "runtime-main.js.map": "/sbu-tabletop-website/static/js/runtime-main.640440ab.js.map",
-    "static/js/2.ee0e1df4.chunk.js": "/sbu-tabletop-website/static/js/2.ee0e1df4.chunk.js",
-    "static/js/2.ee0e1df4.chunk.js.map": "/sbu-tabletop-website/static/js/2.ee0e1df4.chunk.js.map",
+    "static/js/2.e98818e4.chunk.js": "/sbu-tabletop-website/static/js/2.e98818e4.chunk.js",
+    "static/js/2.e98818e4.chunk.js.map": "/sbu-tabletop-website/static/js/2.e98818e4.chunk.js.map",
     "index.html": "/sbu-tabletop-website/index.html",
-    "precache-manifest.2ab85654ac397a9f14f54591ad966ca9.js": "/sbu-tabletop-website/precache-manifest.2ab85654ac397a9f14f54591ad966ca9.js",
+    "precache-manifest.0181a107114db7da8078b84a49824658.js": "/sbu-tabletop-website/precache-manifest.0181a107114db7da8078b84a49824658.js",
     "service-worker.js": "/sbu-tabletop-website/service-worker.js",
-    "static/css/main.370ea069.chunk.css.map": "/sbu-tabletop-website/static/css/main.370ea069.chunk.css.map",
+    "static/css/main.5609e887.chunk.css.map": "/sbu-tabletop-website/static/css/main.5609e887.chunk.css.map",
     "static/media/About.png": "/sbu-tabletop-website/static/media/About.f23601c6.png",
     "static/media/Dice.png": "/sbu-tabletop-website/static/media/Dice.e7684073.png",
     "static/media/App.css": "/sbu-tabletop-website/static/media/MrsEavesRoman.86cadc92.ttf",
@@ -22,12 +22,14 @@
     "static/media/original_logo.jpg": "/sbu-tabletop-website/static/media/original_logo.c8237236.jpg",
     "static/media/phb.png": "/sbu-tabletop-website/static/media/phb.23e39d08.png",
     "static/media/tabletoplogo_colored.png": "/sbu-tabletop-website/static/media/tabletoplogo_colored.7781d370.png",
-    "static/media/typography.png": "/sbu-tabletop-website/static/media/typography.8b90d667.png"
+    "static/media/D20.css": "/sbu-tabletop-website/static/media/triangle.c72de31b.png",
+    "static/media/typography.png": "/sbu-tabletop-website/static/media/typography.8b90d667.png",
+    "static/media/typography_tabletop.png": "/sbu-tabletop-website/static/media/typography_tabletop.18e45509.png"
   },
   "entrypoints": [
     "static/js/runtime-main.640440ab.js",
-    "static/js/2.ee0e1df4.chunk.js",
-    "static/css/main.370ea069.chunk.css",
-    "static/js/main.8be8e6ed.chunk.js"
+    "static/js/2.e98818e4.chunk.js",
+    "static/css/main.5609e887.chunk.css",
+    "static/js/main.88380179.chunk.js"
   ]
 }

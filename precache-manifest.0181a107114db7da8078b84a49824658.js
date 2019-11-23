@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29ea4eb9db5c871d03e5809132d3f852",
+    "revision": "c5b198296d5fdd772954ce8d7cee174c",
     "url": "/sbu-tabletop-website/index.html"
   },
   {
-    "revision": "2849dd018bf3f2b4a510",
-    "url": "/sbu-tabletop-website/static/css/main.370ea069.chunk.css"
+    "revision": "9002ada7279a02bbb25f",
+    "url": "/sbu-tabletop-website/static/css/main.5609e887.chunk.css"
   },
   {
-    "revision": "d8cf9b9ff35cda4b8f7b",
-    "url": "/sbu-tabletop-website/static/js/2.ee0e1df4.chunk.js"
+    "revision": "8c7b551a463e17cb3c70",
+    "url": "/sbu-tabletop-website/static/js/2.e98818e4.chunk.js"
   },
   {
-    "revision": "2849dd018bf3f2b4a510",
-    "url": "/sbu-tabletop-website/static/js/main.8be8e6ed.chunk.js"
+    "revision": "9002ada7279a02bbb25f",
+    "url": "/sbu-tabletop-website/static/js/main.88380179.chunk.js"
   },
   {
     "revision": "d91ef1c0198291fdde4e",
@@ -76,7 +76,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sbu-tabletop-website/static/media/tabletoplogo_colored.7781d370.png"
   },
   {
+    "revision": "c72de31b16164c62729f73754e8adac6",
+    "url": "/sbu-tabletop-website/static/media/triangle.c72de31b.png"
+  },
+  {
     "revision": "8b90d6671d9a96f02df0b30b1d8bbb5b",
     "url": "/sbu-tabletop-website/static/media/typography.8b90d667.png"
+  },
+  {
+    "revision": "18e455098ae6932cdf0ca75337a4c3e0",
+    "url": "/sbu-tabletop-website/static/media/typography_tabletop.18e45509.png"
   }
 ]);
