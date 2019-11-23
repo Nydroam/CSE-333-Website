@@ -1,6 +1,7 @@
 
 
 .navbar{
+    user-select:none;
     overflow: hidden;
     min-width:700px;
     height: 70px;
