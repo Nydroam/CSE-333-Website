@@ -10,7 +10,7 @@ class NavBar extends React.Component{
     render(){
         return (
             <div className="navbar">
-                <div className="nav-title">
+                <div className="nav-title" onClick={e=>this.props.changePage("About")}>
                     <img src={logo} alt="Logo"></img>
                     SBU Tabletop Club
                 </div>

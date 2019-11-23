@@ -20,13 +20,17 @@ class App extends React.Component {
   render(){
     let {page} = this.state;
     let body = <AboutPage />;
+    let modStyle={}
     if (page === "Games" || page === "Events"){
+      modStyle={overflowY:"scroll"};
       body = <ListingPage page={page}/>;
     }
+    
+    
     return (
     <div className="App">
       <NavBar changePage={this.changePage}/>
-      {body}
+      <div className="body" style={modStyle}>{body}</div>
     </div>
     );
   }

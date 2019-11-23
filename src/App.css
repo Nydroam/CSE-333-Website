@@ -28,7 +28,14 @@ body{
   background: url("./page.jpg") no-repeat center fixed;
   background-size: cover;
 }
-
+.body{
+  position:fixed;
+  top:75px;
+  width:100%;
+  left:0;
+  height:calc(100% - 75px);
+  overflow-y:auto;
+}
 @font-face{
   font-family: MrsEaves;
   src:url("./MrsEavesRoman.ttf")
