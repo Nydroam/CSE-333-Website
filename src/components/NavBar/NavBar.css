@@ -1,10 +1,13 @@
 
 
 .navbar{
+    overflow: hidden;
+    min-width:700px;
     height: 70px;
     border-bottom: 5px solid #a50330;
     position:sticky;
     top:0;
+    right:0;
     display:flex;
     text-align: center;
     align-items: center;

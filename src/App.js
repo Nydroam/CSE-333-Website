@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar"
 import AboutPage from "./components/AboutPage/AboutPage"
+import ListingPage from "./components/ListingPage/ListingPage"
 
 class App extends React.Component {
 
@@ -19,8 +20,8 @@ class App extends React.Component {
   render(){
     let {page} = this.state;
     let body = <AboutPage />;
-    if (page === "Games"){
-
+    if (page === "Games" || page === "Events"){
+      body = <ListingPage page={page}/>;
     }
     return (
     <div className="App">
