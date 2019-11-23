@@ -37,11 +37,16 @@ class ListingPage extends React.Component{
 
     render() {
         let list = games;
-        if (this.props.page==="Events")
+        let sub = "Here's some of the popular games we have";
+        if (this.props.page==="Events"){
             list = events;
+            sub = "Here's our upcoming events";
+        }
         return(
             <div className="listing-page">
-                <div className="listing-header">{this.props.page} Listing</div>
+                <div className="header">{this.props.page} Listing</div>
+                <div className="subheader">{sub}</div>
+                <div className="subheader"></div>
                 {list.map(element=><React.Fragment><Card info={element}/><div className="card-div"></div></React.Fragment>)}
             </div>
         )

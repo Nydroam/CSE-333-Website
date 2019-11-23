@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from "./components/NavBar/NavBar"
 import AboutPage from "./components/AboutPage/AboutPage"
 import ListingPage from "./components/ListingPage/ListingPage"
+import DicePage from "./components/DicePage/DicePage";
 
 class App extends React.Component {
 
@@ -24,6 +25,9 @@ class App extends React.Component {
     if (page === "Games" || page === "Events"){
       modStyle={overflowY:"scroll"};
       body = <ListingPage page={page}/>;
+    }
+    if (page === "Dice"){
+      body = <DicePage/>
     }
     
     
